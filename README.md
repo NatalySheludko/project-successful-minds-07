@@ -25,7 +25,7 @@ Includes password visibility toggle, server error notifications, and form submis
 - UserLogoutModal: confirms log out with options to cancel or proceed with session removal.
 
 **Pages for Non-Authorized Users:**
-WelcomePage (/welcome): displays two sections:
+WelcomePage (/welcome): 
 - WaterConsumptionTracker: introduction to tracking water consumption with a "Try tracker" button that redirects to /signup.
 - WhyDrinkWater: highlights the health benefits of drinking water.
 - SignupPage (/signup): contains the AuthForm for user registration. Validates all fields, with error handling, and redirects to the SigninPage upon success.
